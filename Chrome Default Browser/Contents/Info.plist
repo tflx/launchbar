@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.torbenlarsen.action.ChromeDeafultBrowser</string>
+	<key>CFBundleIconFile</key>
+	<string>/Applications/Google Chrome.app/Contents/Resources/app.icns</string>
+	<key>CFBundleName</key>
+	<string>Chrome Default Browser</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+			<key>LBRunInBackground</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>Changes the default browser to Chrome</string>
+		<key>LBAuthor</key>
+		<string>Torben Larsen</string>
+		<key>LBEmail</key>
+		<string>torben@torbenlarsen.com</string>
+	</dict>
+</dict>
+</plist>
